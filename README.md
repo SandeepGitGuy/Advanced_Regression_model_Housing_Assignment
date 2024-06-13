@@ -1,56 +1,60 @@
-# Advanced Linear Regression Assignment for Housing Data for Australia
-> A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price.
+# Advanced Linear Regression Assignment for Housing Data in Australia
 
+> Surprise Housing, a US-based company specializing in data-driven house flipping, is entering the Australian market. This assignment focuses on building a regression model to predict house prices and assess investment potential.
 
 ## Table of Contents
-* US housing giant Surprise seeks Australian market entry. Building a regression model to predict house prices and gauge investment potential. Find key price influencers and measure predictive accuracy. Optimize ridge and lasso models for maximum insight: unlock significant variables and unveil their predictive power. 
-* Technologies Used - Python, Jupyter, Anaconda, Pandas, Numpy, Plotly, Matplotlib, Git, Seaborn, Statsmodels, Sklearn
-* This data-driven approach will equip Surprise Housing with the knowledge and predictive power necessary for a successful entry into the Australian market. The identified significant variables and accurate house price predictions will empower informed investment decisions, maximizing returns and solidifying Surprise Housing's position in the Australian real estate landscape.
+1. [Overview](#overview)
+2. [Technologies Used](#technologies-used)
+3. [Objectives](#objectives)
+4. [Modeling Approach](#modeling-approach)
+5. [Conclusions](#conclusions)
+6. [Acknowledgements](#acknowledgements)
+7. [Contact](#contact)
 
-## General Information
--Identify significant variables: Determine which features in the dataset have a statistically significant impact on house prices.
-
--Model accuracy assessment: Evaluate the model's ability to predict house prices accurately.
-
--Regularization parameter optimization: Find the optimal values of the lambda parameter for both ridge and lasso regression models.
-
-Main Background of the Project is to Predict US Housing giant Surprise paving way into  Australian market entry  armed with data-driven house flipping expertise.  We are using train.csv dataset() provided by upgrad to do the same.
-
-## Conclusions
-- We were able to efficiently and accurately check if the data is clean and clean the data if required.
-- We were able to Visualise the data to uncover patters and insights.
-- We were able to reshape and prepare the data as best as possible to make the model predictions as efficient and accurate as possible.
-- We were able to build a linear regression model by using RFE(Recursive feature elimination).
-- We were able to build a polynomial regression model by using degree 2. Since the Model overfits, we had to use ridge and lasso regression models.
-- We were able to build a Ridge and Lasso regression and able to get a good model which performs well to both test and train data.
-- We were able to perform residual analysis on the train data to check if the model satisfies all the required conditions and validate the model.
-
+## Overview
+- **Objective:** This project aims to equip Surprise Housing with predictive insights to optimize house purchases in the Australian market, maximizing profitability through accurate pricing strategies.
+- **Significance:** By identifying key variables influencing house prices, the project enhances decision-making capabilities, ensuring informed investments.
 
 ## Technologies Used
-- Python - version 3.12.2
-- Jupyter Notebook - 7.4.2
-- Anaconda - 2023.10
-- Numpy - version 1.26.2
-- Pandas - version 2.1.4
-- Plotly - version 5.18.0
-- Matplotlib - 3.6.2
-- Git - version 2.42.1
-- Seaborn - 0.12.2
-- Statsmodels - 0.14.0
-- Scikit-learn (Sklearn) - 1.2.0
+- **Python:** 3.12.2
+- **Jupyter Notebook:** 7.4.2
+- **Anaconda:** 2023.10
+- **Libraries:**
+  - **Numpy:** 1.26.2
+  - **Pandas:** 2.1.4
+  - **Plotly:** 5.18.0
+  - **Matplotlib:** 3.6.2
+  - **Seaborn:** 0.12.2
+  - **Statsmodels:** 0.14.0
+  - **Scikit-learn (Sklearn):** 1.2.0
 
+## Objectives
+- **Identify Significant Variables:** Determine features with statistically significant impacts on house prices using regression analysis.
+- **Model Accuracy Assessment:** Evaluate the predictive performance of linear, polynomial, ridge, and lasso regression models.
+- **Optimize Regularization Parameters:** Fine-tune lambda parameters for ridge and lasso models to achieve optimal predictive power.
 
+## Modeling Approach
+- **Data Preparation:** Cleaned and prepared the `train.csv` dataset provided by UpGrad, ensuring data integrity and consistency.
+- **Visualization:** Visualized data patterns and insights to understand relationships between variables.
+- **Model Building:**
+  - Utilized Recursive Feature Elimination (RFE) to select relevant features for linear regression.
+  - Applied polynomial regression (degree 2) and addressed overfitting with ridge and lasso regression techniques.
+- **Model Validation:** Conducted residual analysis to validate model assumptions and ensure robustness across training and test datasets.
+
+## Conclusions
+- **Data Preparation:** Ensured dataset cleanliness and preparedness for accurate modeling.
+- **Model Performance:** Developed robust regression models (linear, polynomial, ridge, lasso) validated through rigorous analysis.
+- **Insights:** Derived actionable insights into Australian housing market dynamics, enabling strategic decision-making for Surprise Housing.
 
 ## Acknowledgements
-
-- Google.com
-- Stackoverflow.com
-- Youtube.com
-- upgrad.com
-- openai.com
-- wikipedia.org
-- stackexchange.com
-
+- **Resources:** Leveraged resources from:
+  - [Google](https://www.google.com)
+  - [Stack Overflow](https://stackoverflow.com)
+  - [YouTube](https://www.youtube.com)
+  - [UpGrad](https://www.upgrad.com)
+  - [OpenAI](https://www.openai.com)
+  - [Wikipedia](https://www.wikipedia.org)
+  - [Stack Exchange](https://stackexchange.com)
 
 ## Contact
-Created by [@SandeepGitGuy] - feel free to contact me!
+Created by [@SandeepGitGuy](https://github.com/SandeepGitGuy) - Feel free to reach out!
